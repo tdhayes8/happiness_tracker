@@ -38,31 +38,18 @@ cd ../frontend
 npm install
 ```
 
-3. Configure environment
-Create a `.env` in `server/`:
-```
-PORT=4000
-DATABASE_URL=sqlite:./data/dev.db     # or your postgres connection
-JWT_SECRET=your_secret_here
-```
 
-4. Initialize database (example for a Node/Prisma or Sequelize setup)
+3. Initialize database (example for a Node/Prisma or Sequelize setup)
 ```
 cd server
 npm run migrate      # or: npx prisma migrate dev
 ```
 
-5. Run in development
+4. Run in development (with conncurrently @ project root)
 ```
-# Start backend
-cd backend
-npm run dev
-
-# In another terminal, start frontend
-cd frontend
 npm run dev
 ```
-Open http://localhost:3000 (frontend) and http://localhost:4000 (API).
+Open http://localhost:5173 (frontend) and http://localhost:5001 (API).
 
 ## Usage
 - Click “New Entry” or the big happy button to add today’s mood.
@@ -71,14 +58,12 @@ Open http://localhost:3000 (frontend) and http://localhost:4000 (API).
 
 ## Configuration & deployment
 - Set environment variables (PORT, DATABASE_URL, NODE_ENV).
-- For production, build the frontend (`npm run build`) and serve via static host or reverse-proxy to the backend.
 - Use a managed database (Postgres) for multi-device sync.
 
 ## Contribution
 - Fork, create a feature branch, add tests, and open a PR with a clear description.
-- Keep changes focused and include a happy emoji in small UI tweaks for mood.
 
-##Future Improvements
+## Future Improvements
 - Add Authentication to allow multiple users to use this app.
 
 ## License
