@@ -1,0 +1,26 @@
+{
+  "name": "happiness_tracker",
+  "version": "1.0.0",
+  "description": "A web app that keeps track of a user's happiness on a scale of 1-10, over time.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" ",
+    "backend": "cd backend && nodemon index.js",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdhayes8/happiness_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdhayes8/happiness_tracker/issues"
+  },
+  "homepage": "https://github.com/tdhayes8/happiness_tracker#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
