@@ -51,10 +51,6 @@ npm run dev
 ```
 Open http://localhost:5173 (frontend) and http://localhost:5001 (API).
 
-## Usage
-- Click “New Entry” or the big happy button to add today’s mood.
-- Use tags to group moods (work, family, exercise).
-- Visit “Trends” to view charts and export data from Settings.
 
 ## Configuration & deployment
 - Set environment variables (PORT, DATABASE_URL, NODE_ENV).
