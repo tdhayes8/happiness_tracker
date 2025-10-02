@@ -3,7 +3,7 @@
 A small, cheerful app to log daily moods, visualize trends, and discover patterns that help you feel better. Built to be simple, friendly, and extendable — perfect for personal use or as a starting point for a bigger wellbeing project.
 
 ## What this app does
-- Let users record a short mood entry (score, tags, note).
+- Let users record a short mood entry (score, date, diary note).
 - Show an interactive timeline and weekly/monthly summaries.
 - Provide gentle visual prompts and streaks to encourage daily reflection.
 - Store data locally or on a lightweight backend so you keep control of your wellbeing data.
@@ -30,11 +30,11 @@ cd happiness-tracker
 - If fullstack with separate folders:
 ```
 # Backend
-cd server
+cd backend
 npm install
 
 # Frontend
-cd ../client
+cd ../frontend
 npm install
 ```
 
