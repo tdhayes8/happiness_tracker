@@ -2,6 +2,8 @@
 
 A small, cheerful app to log daily moods, visualize trends, and discover patterns that help you feel better. Built to be simple, friendly, and extendable — perfect for personal use or as a starting point for a bigger wellbeing project.
 
+<img width="1131" height="830" alt="image" src="https://github.com/user-attachments/assets/2b0e169c-9418-4562-827e-ed393336ea3d" />
+
 ## What this app does
 - Let users record a short mood entry (score, date, diary note).
 - Show an interactive timeline and weekly/monthly summaries.
@@ -67,5 +69,5 @@ MIT — feel free to adapt and share improvements.
 
 Enjoy tracking — small daily steps lead to big smiles!
 
-<img width="1131" height="830" alt="image" src="https://github.com/user-attachments/assets/2b0e169c-9418-4562-827e-ed393336ea3d" />
+
 
