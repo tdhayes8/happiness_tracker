@@ -41,7 +41,7 @@ npm install
 
 3. Initialize database (example for a Node/Prisma or Sequelize setup)
 ```
-cd server
+cd backend
 npm run migrate      # or: npx prisma migrate dev
 ```
 
@@ -66,3 +66,6 @@ Open http://localhost:5173 (frontend) and http://localhost:5001 (API).
 MIT — feel free to adapt and share improvements.
 
 Enjoy tracking — small daily steps lead to big smiles!
+
+<img width="1131" height="830" alt="image" src="https://github.com/user-attachments/assets/2b0e169c-9418-4562-827e-ed393336ea3d" />
+
